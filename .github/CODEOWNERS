@@ -1,32 +1,32 @@
 # Last match in file takes precedence.
 
 # C# code
-/Content.*/ @Floof-Station/code-maintainers
+/Content.*/ @floof-station/code-maintainers
 
 # Any assets
-/Resources/ @Floof-Station/code-maintainers
+/Resources/ @floof-station/code-maintainers
 
 # Server config files
 /Resources/ConfigPresets/ @M3739
 
 # YML files
-/Resources/*.yml @Floof-Station/yaml-maintainers
-/Resources/**/*.yml @Floof-Station/yaml-maintainers
+/Resources/*.yml @floof-station/yaml-maintainers
+/Resources/**/*.yml @floof-station/yaml-maintainers
 
 # Sprites - Code Maintainers in absence of a proper direction unit
-/Resources/Textures/ @Floof-Station/code-maintainers
+/Resources/Textures/ @floof-station/code-maintainers
 
 # Lobby art and music - automatically direction issues since its immediately visible to players
-/Resources/Audio/Lobby/ @Floof-Station/direction
-/Resources/Textures/LobbyScreens/ @Floof-Station/direction
+/Resources/Audio/Lobby/ @floof-station/direction
+/Resources/Textures/LobbyScreens/ @floof-station/direction
 
 # Maps
-/Resources/Maps/ @Floof-Station/map-maintainers
-/Resources/Prototypes/Maps/ @Floof-Station/map-maintainers
-/Content.IntegrationTests/Tests/PostMapInitTest.cs @Floof-Station/map-maintainers
+/Resources/Maps/ @floof-station/map-maintainers
+/Resources/Prototypes/Maps/ @floof-station/map-maintainers
+/Content.IntegrationTests/Tests/PostMapInitTest.cs @floof-station/map-maintainers
 
 # Server rules - directors in absence of head administration.
-/Resources/ServerInfo/Guidebook/DeltaV/Rules/ @Floof-Station/directors
+/Resources/ServerInfo/Guidebook/DeltaV/Rules/ @floof-station/directors
 
 # Tools and scripts
 /Tools/ @m3739
