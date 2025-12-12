@@ -1,32 +1,31 @@
 # Last match in file takes precedence.
-
 # C# code
-/Content.*/ @floof-station/code-maintainers
+/Content.*/ @memeji @mnemotechnician @m3739 #@floof-station/code-maintainers
 
 # Any assets
-/Resources/ @floof-station/code-maintainers
+/Resources/ @memeji @mnemotechnician @m3739 #@floof-station/code-maintainers
 
 # Server config files
-/Resources/ConfigPresets/ @M3739
+/Resources/ConfigPresets/ @m3739
 
 # YML files
-/Resources/*.yml @floof-station/yaml-maintainers
-/Resources/**/*.yml @floof-station/yaml-maintainers
+/Resources/*.yml @memeji @mnemotechnician @m3739 #@floof-station/yaml-maintainers
+/Resources/**/*.yml @memeji @mnemotechnician @m3739 #@floof-station/yaml-maintainers
 
-# Sprites - Code Maintainers in absence of a proper direction unit
-/Resources/Textures/ @floof-station/code-maintainers
+# Sprites - Maintainers in absence of a proper direction unit
+/Resources/Textures/ @memeji @mnemotechnician @m3739  # @floof-station/direction
 
-# Lobby art and music - automatically direction issues since its immediately visible to players
-/Resources/Audio/Lobby/ @floof-station/direction
-/Resources/Textures/LobbyScreens/ @floof-station/direction
+# Lobby art and music - automatically direction issues since its immediately visible to players - Maintainers in absence of a proper direction unit
+/Resources/Audio/Lobby/ @memeji @mnemotechnician @m3739 #@floof-station/direction
+/Resources/Textures/LobbyScreens/ @memeji @mnemotechnician @m3739 #@floof-station/direction
 
 # Maps
-/Resources/Maps/ @floof-station/map-maintainers
-/Resources/Prototypes/Maps/ @floof-station/map-maintainers
-/Content.IntegrationTests/Tests/PostMapInitTest.cs @floof-station/map-maintainers
+/Resources/Maps/ @dunrab #@floof-station/map-maintainers
+/Resources/Prototypes/Maps/ @dunrab #@floof-station/map-maintainers
+/Content.IntegrationTests/Tests/PostMapInitTest.cs @dunrab #@floof-station/map-maintainers
 
 # Server rules - directors in absence of head administration.
-/Resources/ServerInfo/Guidebook/DeltaV/Rules/ @floof-station/directors
+/Resources/ServerInfo/Guidebook/DeltaV/Rules/ @TechCoarse #@floof-station/directors
 
 # Tools and scripts
 /Tools/ @m3739
